@@ -21,7 +21,7 @@ class MessageViewController: UIViewController {
     @IBOutlet weak var leaveCommentTF: UITextField!
     
     let profileIDArray = ["Sam", "Tom", "Jenny", "Lily", "Nathan"]
-    let commentsArray = ["wow this is awesome.", "wow this is awesome.Bobsuncle is the best company.", "wow this is awesome.Bobsuncle is the best company.When is lunch time?", "wow this is awesome.Bobsuncle is the best company.When is lunch time?My name is Lily.", "I'm from the U.K.wow this is awesome.Bobsuncle is the best company.When is lunch time?My name is Lily.wow this is awesome.Bobsuncle is the best company.When is lunch time?My name is Lily."]
+    let commentsArray = ["wow this is awesome.", "Bobsuncle is the best company.", "When is lunch time?", "My name is Lily.", "I'm from the U.K."]
     
     var textViewYValue = CGFloat(0)
     
