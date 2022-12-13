@@ -19,7 +19,7 @@ class MusicViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-//        NotificationCenter.default.addObserver(self, selector: #selector(userTookScreenShot(_:)), name: UIApplication.userDidTakeScreenshotNotification, object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(userTookScreenShot(_:)), name: UIApplication.userDidTakeScreenshotNotification, object: nil)
     }
     
     // MARK: - Action functions
